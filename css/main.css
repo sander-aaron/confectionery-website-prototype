@@ -23,20 +23,50 @@ body {
 
 header {
   font-family: 'Quicksand', sans-serif;
-  background-color: #ccc;
+  background-color: #bbb;
 }
 
 header h1 {
   margin: 0;
   text-align: center;
+  color: #333;
 }
 
 header nav {
-  background-color: #eee;
+  background-color: #ddd;
 }
 
 header li {
   display: inline-block;
   width: 30%;
   text-align: center;
+}
+
+header a {
+  text-decoration: none;
+  color: #555;
+}
+
+main {
+  float: left;
+  width: 100%;
+  font-family: 'Questrial', sans-serif;
+  background-color: #eee;
+}
+
+div h2 {
+  color: #333;
+}
+
+div p {
+  color: #444;
+}
+
+div li {
+  color: #444;
+}
+
+footer {
+  font-family: 'Quicksand', sans-serif;
+  background-color: #bbb;
 }
