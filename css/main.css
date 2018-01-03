@@ -16,3 +16,27 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+body {
+  margin: 0;
+}
+
+header {
+  font-family: 'Quicksand', sans-serif;
+  background-color: #ccc;
+}
+
+header h1 {
+  margin: 0;
+  text-align: center;
+}
+
+header nav {
+  background-color: #eee;
+}
+
+header li {
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+}
