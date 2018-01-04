@@ -211,6 +211,10 @@ main li {
   color: #888
 }
 
+.book {
+  margin-left: .6em;
+}
+
 footer {
   font-family: 'Quicksand', sans-serif;
   background-color: #bbb;
