@@ -36,6 +36,11 @@ header nav {
   background-color: #ddd;
 }
 
+header ul {
+  margin: 0;
+  padding: 0;
+}
+
 header li {
   display: inline-block;
   width: 30%;
@@ -54,6 +59,10 @@ main {
   background-color: #eee;
 }
 
+.topimage img {
+  width: 100%;
+}
+
 div h2 {
   color: #333;
 }
@@ -62,8 +71,33 @@ div p {
   color: #444;
 }
 
-div li {
+main ul {
+  margin: 0;
+  padding: 0;
+}
+
+main li {
+  list-style-type: none;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.item {
   color: #444;
+  text-decoration: none;
+  background-color: #ddd;
+  margin: .5em;
+  padding: .5em;
+}
+
+.button {
+  margin-left: 0;
+  background-color: #bbb;
+  color: #444;
+  text-decoration: none;
+  border: 2px solid #fff;
+  border-radius: 6px;
+  padding: .5em;
 }
 
 footer {
