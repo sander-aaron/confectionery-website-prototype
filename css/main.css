@@ -116,6 +116,11 @@ main li {
   background-color: #ddd;
   margin: .5em;
   padding: .5em;
+  border-radius: 6px;
+}
+
+.item:hover {
+    background-color: #c3c3c3;
 }
 
 .button {
@@ -138,8 +143,13 @@ main li {
   display: none;
 }
 
+.workers img {
+  width: 80px;
+}
+
 .workers h2 {
   margin-left: .5em;
+  margin-bottom: .2em;
 }
 
 .workers nav {
@@ -153,15 +163,30 @@ main li {
   width: 48%;
   text-align: center;
   background-color: #ddd;
+  border-radius: 6px;
+}
+
+.workers li:hover {
+  background-color: #c3c3c3;
 }
 
 .title {
   font-size: 1.2rem;
+  margin: 0;
+}
+
+.workers p {
+  margin: .2em;
 }
 
 .workers a {
   text-decoration: none;
   color: #444;
+  margin: 0;
+}
+
+.hours h2 {
+  margin-top: .5em;
 }
 
 .hours h3 {
@@ -280,6 +305,11 @@ footer {
   .button {
     width: 110px;
   }
+
+  .workers li {
+    width: 24%;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
