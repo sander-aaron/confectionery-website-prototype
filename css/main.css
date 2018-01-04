@@ -138,6 +138,32 @@ main li {
   display: none;
 }
 
+.workers h2 {
+  margin-left: .5em;
+}
+
+.workers nav {
+  margin-left: .8em;
+}
+
+.workers li {
+  display: inline-block;
+  margin-top: .5em;
+  margin-bottom: 0;
+  width: 48%;
+  text-align: center;
+  background-color: #ddd;
+}
+
+.title {
+  font-size: 1.2rem;
+}
+
+.workers a {
+  text-decoration: none;
+  color: #444;
+}
+
 .hours h3 {
   margin: .5em;
   color: #444;
@@ -236,6 +262,23 @@ footer {
   html {
     font-size: 110%;
     line-height: 1.4;
+  }
+
+  .topimage {
+    position: relative:
+  }
+
+  .summary {
+    position: absolute;
+    width: 95%;
+    bottom: 39%;
+    left: 2%;
+    background-color: rgba(150, 150, 150, 0.5);
+    border-radius: 6px;
+  }
+
+  .button {
+    width: 110px;
   }
 }
 
