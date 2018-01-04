@@ -28,13 +28,13 @@ header {
 
 header .logo-left {
   margin-top: .3rem;
-  width: 10%;
+  width: 32px;
   float: left;
 }
 
 header .logo-right {
   margin-top: .3rem;
-  width: 10%;
+  width: 32px;
   float: right;
 }
 
@@ -173,19 +173,51 @@ footer {
     line-height: 1.3;
   }
 
-  header li {
-    width: 25%;
+  header .logo-left {
+    width: 41px
+  }
+
+  header .logo-right {
+    width: 41px
+  }
+
+  header h1 {
+    padding: .3rem;
+  }
+
+  .topimage {
+    overflow: hidden;
+    max-height: 306px;
+  }
+
+  .topimage img {
+    display: block;
+    width: 100%;
   }
 
   .favourites li {
+    display: inline-block;
+    width: 45%;
     margin: .5em;
     padding: 1em;
-    background-color: #ddd
+    background: #ddd
+  }
+
+  .favourites li:hover{
+    background-color: #d4d4d4;
+  }
+
+  .item {
+    background: none;
+  }
+
+  li .item:hover {
+    background-color: #d4d4d4;
   }
 
   .foodicon {
     display: block;
-    width: 20%;
+    width: 50%;
     margin: auto;
     margin-bottom: .5em;
   }
@@ -197,9 +229,9 @@ footer {
 
   .button {
     display: block;
-    width: 30%;
-    text-align: center;
     margin: auto;
+    text-align: center;
+    width: 100px;
   }
 }
 
