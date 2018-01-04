@@ -26,6 +26,18 @@ header {
   background-color: #bbb;
 }
 
+header .logo-left {
+  margin-top: .3rem;
+  width: 10%;
+  float: left;
+}
+
+header .logo-right {
+  margin-top: .3rem;
+  width: 10%;
+  float: right;
+}
+
 header h1 {
   margin: 0;
   text-align: center;
@@ -75,10 +87,12 @@ main {
 div h2 {
   color: #333;
   margin: .5em;
+  margin-top: 0;
 }
 
 .summary p {
   margin: .5em;
+  padding-left: .4em;
 }
 
 div p {
@@ -118,6 +132,29 @@ main li {
   background-color: #eee;
   border: 2px solid #000;
   border-radius: 6px;
+}
+
+.hours h3 {
+  margin: .5em;
+  color: #444;
+}
+
+.hours ul {
+  margin-left: .5em;
+}
+
+.hours li {
+  margin: .5em .2em;
+}
+
+.hours p {
+  margin: .5em;
+  margin-left: .6em;
+}
+
+.hours .real {
+  margin-left: 2.7em;
+  color: #888
 }
 
 footer {
