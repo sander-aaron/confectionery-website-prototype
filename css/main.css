@@ -289,6 +289,14 @@ footer {
     line-height: 1.4;
   }
 
+  header .logo-left {
+    width: 50px;
+  }
+
+  header .logo-right {
+    width: 50px;
+  }
+
   .topimage {
     position: relative:
   }
@@ -332,6 +340,99 @@ footer {
   html {
     font-size: 120%;
     line-height: 1.5;
+  }
+
+  header .logo-left {
+    width: 60px;
+  }
+
+  header .logo-right {
+    width: 60px;
+  }
+
+  .favourites {
+    position: relative;
+  }
+
+  .foodicon {
+    width: 100%;
+    position: relative;
+  }
+
+  .hazel {
+    position: absolute;
+    bottom: 60%;
+    left: 6%;
+  }
+
+  .hazel-button {
+    position: absolute;
+    bottom: 58%;
+    left: 9%;
+  }
+
+  .ban {
+    position: absolute;
+    bottom: 60%;
+    left: 36.5%;
+  }
+
+  .ban-button {
+    position: absolute;
+    bottom: 58%;
+    left: 42%;
+  }
+
+  .choco {
+    position: absolute;
+    bottom: 60%;
+    left: 70%;
+  }
+
+  .choco-button {
+    position: absolute;
+    bottom: 58%;
+    left: 74.5%;
+  }
+
+  .straw {
+    position: absolute;
+    bottom: 14%;
+    left: 3%;
+  }
+
+  .straw-button {
+    position: absolute;
+    bottom: 12%;
+    left: 10%;
+  }
+
+  .butter {
+    position: absolute;
+    bottom: 14%;
+    left: 37%;
+  }
+
+  .butter-button {
+    position: absolute;
+    bottom: 12%;
+    left: 42%;
+  }
+
+  .peach {
+    position: absolute;
+    bottom: 14%;
+    left: 69%;
+  }
+
+  .peach-button {
+    position: absolute;
+    bottom: 12%;
+    left: 74%;
+  }
+
+  .button {
+    width: 120px;
   }
 }
 
