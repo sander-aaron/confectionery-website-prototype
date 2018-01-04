@@ -359,9 +359,14 @@ footer {
     position: relative;
   }
 
+  .item {
+    min-height: 40px;
+    background-color: rgba(150, 150, 150, 0.5);
+  }
+
   .hazel {
     position: absolute;
-    bottom: 60%;
+    bottom: 65%;
     left: 6%;
   }
 
@@ -373,7 +378,7 @@ footer {
 
   .ban {
     position: absolute;
-    bottom: 60%;
+    bottom: 65%;
     left: 36.5%;
   }
 
@@ -385,7 +390,7 @@ footer {
 
   .choco {
     position: absolute;
-    bottom: 60%;
+    bottom: 65%;
     left: 70%;
   }
 
@@ -397,7 +402,7 @@ footer {
 
   .straw {
     position: absolute;
-    bottom: 14%;
+    bottom: 19%;
     left: 3%;
   }
 
@@ -409,7 +414,7 @@ footer {
 
   .butter {
     position: absolute;
-    bottom: 14%;
+    bottom: 19%;
     left: 37%;
   }
 
@@ -421,7 +426,7 @@ footer {
 
   .peach {
     position: absolute;
-    bottom: 14%;
+    bottom: 19%;
     left: 69%;
   }
 
