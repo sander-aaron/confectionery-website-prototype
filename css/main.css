@@ -138,6 +138,26 @@ main li {
   border-radius: 6px;
 }
 
+.hazel-button {
+  margin-left: 3.3em;
+}
+
+.ban-button {
+  margin-left: 1.4em;
+}
+
+.choco-button {
+  margin-left: 2.6em;
+}
+
+.butter-button {
+  margin-left: 1.4em;
+}
+
+.peach-button {
+  margin-left: 2.1em;
+}
+
 .foodicon {
   display: none;
 }
