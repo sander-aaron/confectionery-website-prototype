@@ -349,7 +349,7 @@ footer {
 
 }
 
-@media screen and (max-width:39.75em) and (min-width: 38em) {
+@media screen and (max-width: 39.75em) and (min-width: 38em) {
 
   .title {
     min-height: 68px;
