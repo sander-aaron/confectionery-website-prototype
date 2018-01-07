@@ -118,8 +118,8 @@ main li {
   border-radius: 6px;
 }
 
-  .item:hover {
-    background-color: #c3c3c3;
+.item:hover {
+  background-color: #c3c3c3;
 }
 
 .button {
