@@ -22,7 +22,7 @@ body {
 }
 
 header {
-  font-family: "Quicksand", sans-serif;
+  font-family: Quicksand, sans-serif;
   background-color: #bbb;
 }
 
@@ -74,7 +74,7 @@ header a {
 main {
   float: left;
   width: 100%;
-  font-family: "Questrial", sans-serif;
+  font-family: Questrial, sans-serif;
   background-color: #eee;
 }
 
@@ -236,7 +236,7 @@ main li {
 }
 
 footer {
-  font-family: "Quicksand", sans-serif;
+  font-family: Quicksand, sans-serif;
   background-color: #bbb;
 }
 
