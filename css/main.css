@@ -115,6 +115,7 @@ main li {
 
 .item:hover {
   background-color: #c3c3c3;
+  color: #444;
 }
 
 .button {
@@ -131,6 +132,7 @@ main li {
   background-color: #eee;
   border: 2px solid #000;
   border-radius: 6px;
+  color: #444;
 }
 
 .hazel-button {
@@ -235,10 +237,12 @@ footer {
 header li:hover {
   background-color: #c3c3c3;
   border: 2px solid #000;
+  color: #555;
 }
 
 .workers li:hover {
   background-color: #c3c3c3;
+  color: #444;
 }
 
 @media only screen and (min-width: 25em) {
@@ -281,6 +285,7 @@ header li:hover {
 
   .favourites li:hover {
     background-color: #c3c3c3;
+    color: #555;
   }
 
   .item {
