@@ -89,13 +89,13 @@ div h2 {
   margin-top: 0;
 }
 
+div p {
+  color: #444;
+}
+
 .summary p {
   margin: .5em;
   padding-left: .4em;
-}
-
-div p {
-  color: #444;
 }
 
 main ul {
