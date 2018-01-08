@@ -61,11 +61,6 @@ header li {
   border-radius: 6px;
 }
 
-header li:hover {
-  background-color: #c3c3c3;
-  border: 2px solid #000;
-}
-
 header a {
   text-decoration: none;
   color: #555;
@@ -238,6 +233,12 @@ main li {
 footer {
   font-family: Quicksand, sans-serif;
   background-color: #bbb;
+  text-align: center;
+}
+
+header li:hover {
+  background-color: #c3c3c3;
+  border: 2px solid #000;
 }
 
 @media only screen and (min-width: 25em) {
@@ -478,5 +479,63 @@ footer {
   html {
     font-size: 130%;
   }
+  .hazel {
+    bottom: 68%;
+    left: 9%;
+  }
 
+  .hazel-button {
+    bottom: 59%;
+    left: 11.5%;
+  }
+
+  .ban {
+    bottom: 68%;
+    left: 38%;
+  }
+
+  .ban-button {
+    bottom: 59%;
+    left: 43%;
+  }
+
+  .choco {
+    bottom: 68%;
+    left: 72%;
+  }
+
+  .choco-button {
+    bottom: 59%;
+    left: 75%;
+  }
+
+  .straw {
+    bottom: 21%;
+    left: 6%;
+  }
+
+  .straw-button {
+    bottom: 12%;
+    left: 11%;
+  }
+
+  .butter {
+    bottom: 21%;
+    left: 39%;
+  }
+
+  .butter-button {
+    bottom: 12%;
+    left: 43%;
+  }
+
+  .peach {
+    bottom: 21%;
+    left: 71%;
+  }
+
+  .peach-button {
+    bottom: 12%;
+    left: 75%;
+  }
 }
