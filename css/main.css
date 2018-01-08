@@ -180,10 +180,6 @@ main li {
   border-radius: 6px;
 }
 
-.workers li:hover {
-  background-color: #c3c3c3;
-}
-
 .title {
   font-size: 1.2rem;
   margin: 0;
@@ -239,6 +235,10 @@ footer {
 header li:hover {
   background-color: #c3c3c3;
   border: 2px solid #000;
+}
+
+.workers li:hover {
+  background-color: #c3c3c3;
 }
 
 @media only screen and (min-width: 25em) {
@@ -479,6 +479,7 @@ header li:hover {
   html {
     font-size: 130%;
   }
+
   .hazel {
     bottom: 68%;
     left: 9%;
