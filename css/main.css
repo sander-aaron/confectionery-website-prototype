@@ -355,10 +355,17 @@ header li:hover {
 
 }
 
-@media screen and (max-width: 39.75em) and (min-width: 38em) {
+@media only screen and (min-width: 38em) {
 
   .title {
     min-height: 68px;
+  }
+}
+
+@media only screen and (min-width: 39.75em) {
+
+  .title {
+    min-height: 58px;
   }
 }
 
