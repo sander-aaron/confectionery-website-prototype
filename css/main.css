@@ -57,14 +57,14 @@ header li {
   display: inline-block;
   width: 32.4%;
   text-align: center;
-  border: 2px solid #fff;
-  border-radius: 6px;
 }
 
 header li a {
   text-decoration: none;
   color: #555;
   display: block;
+  border: 2px solid #fff;
+  border-radius: 6px;
 }
 
 main {
@@ -242,7 +242,7 @@ footer {
   text-align: center;
 }
 
-header li:hover {
+header a:hover {
   background-color: #c3c3c3;
   border: 2px solid #000;
   color: #555;
