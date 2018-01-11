@@ -67,12 +67,6 @@ header li a {
   border-radius: 6px;
 }
 
-header a:hover {
-  background-color: #c3c3c3;
-  border: 2px solid #000;
-  color: #555;
-}
-
 main {
   float: left;
   width: 100%;
@@ -205,6 +199,12 @@ main li {
   color: #444;
   margin: 0;
   display: block;
+}
+
+header a:hover {
+  background-color: #c3c3c3;
+  border: 2px solid #000;
+  color: #555;
 }
 
 .workers a:hover {
