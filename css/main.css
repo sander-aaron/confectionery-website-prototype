@@ -48,10 +48,6 @@ header nav {
   background-color: #ddd;
 }
 
-header nav:hover {
-  background-color: #eee;
-}
-
 header ul {
   margin: 0;
   padding: 0;
