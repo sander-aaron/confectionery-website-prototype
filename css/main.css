@@ -201,6 +201,10 @@ main li {
   display: block;
 }
 
+.workers a:hover {
+  color: #eee;
+}
+
 .hours h2 {
   margin-top: .5em;
 }
