@@ -61,9 +61,10 @@ header li {
   border-radius: 6px;
 }
 
-header a {
+header li a {
   text-decoration: none;
   color: #555;
+  display: block;
 }
 
 main {
