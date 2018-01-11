@@ -127,6 +127,7 @@ main li {
   border: 2px solid #fff;
   border-radius: 6px;
   padding: .5em;
+  display: block;
 }
 
 .button:hover {
@@ -308,6 +309,7 @@ header li:hover {
     margin: auto;
     text-align: center;
     width: 100px;
+    display: block;
   }
 }
 
